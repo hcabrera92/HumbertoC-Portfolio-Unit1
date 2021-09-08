@@ -7,10 +7,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
   color: #222;
   background: #707070;
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
 /* Link Styles */
 
 a {
@@ -92,6 +98,16 @@ header .profile-image:hover {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
+  text-align: left;
+  background: #C4C4C4;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-experience {
+  margin: 30px;
+  padding: 20px 90px 90px;
+  max-width: auto;
   text-align: left;
   background: #C4C4C4;
   border-bottom: 4px solid #ccc;
@@ -209,4 +225,18 @@ a.social:hover {
 
   width:400px;
   height:auto;
+
+
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.center-text {
+  text-align: center;
 }
