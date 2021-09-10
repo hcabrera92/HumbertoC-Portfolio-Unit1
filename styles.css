@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #555;
 }
 a:hover {
-  color: #6633ff;
+  color: #F8971D;
 }
 
 /* Section Styles */
