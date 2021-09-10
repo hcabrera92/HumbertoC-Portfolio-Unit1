@@ -240,3 +240,7 @@ a.social:hover {
 .center-text {
   text-align: center;
 }
+
+iframe {
+  border: 0;
+}
